@@ -1,5 +1,6 @@
 require 'weather-icons/rails/engine'
 require 'weather-icons/rails/railtie'
+require 'weather-icons/rails/open_weather_map'
 
 module WeatherIcons
   module Rails
