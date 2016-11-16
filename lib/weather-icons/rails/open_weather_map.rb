@@ -203,7 +203,7 @@ module WeatherIcons
           },
           "800" => {
               "label" => "clear sky",
-              "icon" => "sunny"
+              "icon" => "day-sunny"
           },
           "801" => {
               "label" => "few clouds",
@@ -251,7 +251,7 @@ module WeatherIcons
           },
           "951" => {
               "label" => "calm",
-              "icon" => "sunny"
+              "icon" => "day-sunny"
           },
           "952" => {
               "label" => "light breeze",
