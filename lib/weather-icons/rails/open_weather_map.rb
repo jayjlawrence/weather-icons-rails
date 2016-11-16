@@ -300,11 +300,11 @@ module WeatherIcons
       }
 
       def self.label(code)
-          MAPPING[code] ? MAPPING[code]['label'] : ''
+          MAPPING[code.to_s] ? MAPPING[code.to_s]['label'] : ''
       end
 
       def self.icon(code)
-          MAPPING[code] ? MAPPING[code]['icon'] : ''
+          MAPPING[code.to_s] ? MAPPING[code.to_s]['icon'] : ''
       end
 
     end
